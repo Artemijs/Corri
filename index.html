@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Corri</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/Animate.css">
+		<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/PersonaLoader.js"></script>
+	<script src="js/UseCases.js"></script>
+	<script src="js/UseCaseDiagrams.js"></script>
+	<script src="js/Wireframes.js"></script>
+	<script src="js/std.js"></script>
+	<script src="js/Main.js"></script> 
+	<link rel="stylesheet" href="css/Main.css">
+</head>
+<body onload = "init();" data-spy="scroll" data-target=".navbar">
+<div class="navbar navbar-inverse navbar-fixed-top" role = "navigation">
+  <div class="container">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+	  <a href="#home" class="navbar-brand"><img src="img/Logo_Corri_header.png"></a>
+	</div>
+	<div class="collapse navbar-collapse">
+	  <ul class="nav navbar-nav">
+		<li class="active"><a class = "page-scroll" href="#about">About</a></li>
+		<li><a class = "page-scroll" href="#persona">Personas</a></li>
+		<li><a class = "page-scroll" href="#uc_diagrams">Use Case Diagram</a></li>
+		<li><a class = "page-scroll" href="#use_cases">Use Cases</a></li>
+		<li><a class = "page-scroll" href="#structure_map">Structure Maps</a></li>
+		<li><a class = "page-scroll" href="#wire_frames">Wire Frames</a></li>
+		<li><a class = "page-scroll" href="#task_diagram">Task Diagram</a></li>
+		<li><a class = "page-scroll" href="#story_board">Stroy Board</a></li>
+		<li><a class = "page-scroll" href="#std">State Diagrams</a></li>
+	  </ul>
+	 
+	</div><!--/.nav-collapse -->
+  </div>
+</div>
+
+<div class="wide" id = "home">
+	 <!--<div class="jumbotron text-center transparent vertical-center" id = "header_content">
+		<ul>
+			<li><h2>Learn Languages like never before</h2> </li>wq
+
+			<li><h2>with your personal teacher in your pocket.</h2></li>
+			<li><h3>Talk. Practice. Learn.</h3></li>
+		</ul>
+	</div>-->
+	 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/gNSfhSXtvSk">
+	</iframe> 
+</div>
+
+<div class="container">
+	<div class ="row">
+		<div id = "about" class = "jumbotron col-sm-9 transparent">
+			<img src = "./img/corri_logo_black.png">
+			<p> Is a solution for everyone who is learning a language and wants to practice and develop their speaking skills. The app doesn't just stop there, at some point in life we are all required to do a public speach or a presentation, it is a most common of fears for all. "Corri" will also benefit people who want to improve their public speaking skills.
+			</p>
+		</div>
+		<div class = "col-sm-3">
+			<img src = "./img/mobile_corri.png" id ="phone_about">
+		</div>
+	</div>
+	<div class = "row">
+		<div id = "about_2" class = "jumbotron col-sm-12">
+			<p> Corri is an app that helps learning a new language easier than ever before. The app is designed for mobile devices and focuses on the two-way communication with the user. The built in Artificial Intelligence makes it possible to analyze and correct the users grammar and pronounciation. Navigate easily with voice commands and discover other functionalities such as online dictionary, voice recording and synonym suggestions.</p>
+		</div>
+	</div>
+	<div id = "persona" class = "row">
+		<img id="persona_nav_left" src="./img/black_arrow_left.png">
+		<img id = "persona_nav_right" src="./img/black_arrow_right.png">
+		<div  class="heading">
+			<h2>Who will use it</h2>
+			<p>Personas and scenarios</p>
+		</div>
+		<!-- BEGIN PERSON PAGES -->
+		<div id = "persona_pages">
+			<div id = "persona_0">
+				<div class = "row">
+					<div id="persona_description">
+						<div id = "persona_bio"></div>
+						<div id="pimgdiv" class = "no_padding col-sm-3 ">
+							<img id="persona_img" src="" class = "img_col" ></img>
+							<p id ="persona_name_p"></p>
+							<p id = "frequent_usr_txt"></p>
+						</div>
+					</div>
+				</div>
+				<div class ="row">
+					<div class = "col-sm-3" id = "visited_w">
+						<p class = "purple">Most visited web pages:</p>
+						<div id = "visited_list"></div>
+					</div>
+					<div id = "private_details" class = "col-sm-9">
+						<table style="width:100%">
+							<tr >
+								<td class = "purple">Age:</td>
+								<td id ="pd_age"></td>
+							</tr>
+							<tr>
+								<td class = "purple">Occupation:</td>
+								<td id = "pd_occupation"></td>
+							</tr>
+							<tr>
+								<td class = "purple">Education:</td>
+								<td id = "pd_education"></td>
+							</tr>
+							<tr>
+								<td class = "purple">Nationality:</td>
+								<td id = "pd_nationality"></td>
+							</tr>
+							<tr>
+								<td class = "purple">Living:</td>
+								<td id = "pd_living"></td>
+							</tr>
+							<tr>
+								<td class = "purple">Hobby:</td>
+								<td id = "pd_hobby"> </td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div id = "admired_brands" class = "row">
+					<div class = "col-sm-12">
+					<p class = "purple ">Admired Brands: </p>
+					<div id= "admired_brand_img"></div>
+					</div>
+				</div>
+				<div id = "persona_golas">
+					<div id = "persgoals" class = "col-sm-7">
+						<p class = "purple">Goals:</p>
+						<div id = "pgoals">
+						</div>
+					</div>
+					<div class = "col-sm-5" id = "pskillsdiv">
+						<p class = "purple">Attitude/Skills:</p>
+						<div id = "pskills">
+						</div>
+						<p class = "purple">Concerns:</p>
+						<div id = "pconerns" style = "color:#DA4949;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<!-- END PERSON PAGES -->
+	</div><!-- /.container -->
+	<div id = "page_break_gradient" calss="row" >
+		<img id="pbg_back" src="img/gradient_bckg.png">
+		<div id="pgb_container">
+			<img id = "pbg_logo" src="img/Logo_Corri_header.png">
+			<p id = "pbg_text"> your personal teacher in your pocket </p>
+		</div>
+	</div>
+	<div id = "use_case_diagrams" class = "row">
+		<img id="uc_diagram_nav_left" src="./img/black_arrow_left.png">
+		<img id = "uc_diagram_nav_right" src="./img/black_arrow_right.png">
+		<div  class="heading">
+			<h2>Who will use it</h2>
+			<p>Personas and scenarios</p>
+		</div>
+		<div id="uc_diagrams"></div>
+	</div>
+	<div id = "use_cases" class = "row">
+		<img id="use_case_nav_left" src="./img/black_arrow_left.png">
+		<img id = "use_case_nav_right" src="./img/black_arrow_right.png">
+
+		<p id = "usc_title" class = "purple"></p>
+
+		<p class="usc_bold">Actors</p>
+		<ul id = "usc_actors" class = "dots"></ul>
+
+		<p class="usc_bold">Description</p>
+		<div id = "usc_description" class = "tabbed"></div>
+		<br>
+		<p class="usc_bold">Preconditions</p>
+		<div id = "usc_preconditions" class = "tabbed"></div>
+		<br>
+		<p class="usc_bold">Basic Flow</p>
+		<ol id = "usc_basic_flow"></ol>
+
+		<p class="usc_bold">Alternate Flow</p>
+		<div id = "usc_alt_flow"></div>
+	</div>
+	<div id="structure_map" class = "row">
+		<div  class="heading">
+			<h2>Corri structure map</h2>
+		</div>
+		<img src="img/site_maps.png">
+	</div>
+	<div id = "wire_frames" class = "row">
+		<img id = "wf_bg" src="img/wireframes_bg.png">
+		<img id = "frame_nav_right" src="img/white_arrow_right.png">
+		<img id = "frame_nav_left" src="img/white_arrow_left.png">
+		<div id = "wf_header_text">
+			<img id="wf_logo" src="img/Logo_Corri_header.png">
+			<p id="wfp1">wireframes showcase</p>
+			<br>
+			<p id="wfp2">click arrows or images behind the mobile to navigate</p>
+		</div>
+		<div id="slide">
+			<img id = "empty_phone" src="img/empty_screen_mobile_corri.png">
+		</div>
+	</div>
+	<div id = "diagrams" class = "row">
+		<div id = "task_diagram" class = "row">
+			<div  class="heading" class = "row">
+				<h2>Task Diagram</h2>
+			</div>
+			<img id="task_d_img" src="img/task_diagram.png">
+		</div>
+		
+		<div id = "story_board" class = "row">
+			<div  class="heading">
+				<h2>Stroy Board</h2>
+			</div>
+			<img id="story_board_d" src="img/StoryBoard.png">
+		</div>
+		<div id = "std" class = "row">
+			<div  class="heading" class = "row">
+				<h2>State Transition Diagrams</h2>
+			</div>
+			<div id = "std_img_div">
+				<img id="std_img" src="img/stae_transition_diagram.png">
+			</div>
+			<div id = "std_zoom_div">
+				<img id="std_zoom_img" src="img/stae_transition_diagram.png">
+			</div>
+		</div>
+		<div id = "end" class = "row">
+			<img id = "footer_img" src="img/footer.png">
+			<div id ="footer_text">
+				<p id = "foot_p_large">Join our newsletter and be the first to know about updates, discounts and tips.</p>
+				<p id = "foot_p_small">Just provide your email below</p>
+				<br>
+				<input id = "footer_textbox" type="text">
+				<input id = "footer_btn" type= "button" value="ADD ME">
+			</div>
+		</div>
+	</div>
+	
+</div>
+</body>
+</html>
+

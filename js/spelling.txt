@@ -1,0 +1,160 @@
+21:39 - Mr.Grumpy: teusz
+21:39 - rorrExatnyS: wassup
+21:40 - rorrExatnyS: check was rip-ing about you today
+21:39 - Mr.Grumpy: ahh lol
+21:40 - rorrExatnyS: but here you are
+21:39 - Mr.Grumpy: i have a deadline tomorrow
+21:40 - rorrExatnyS: well and alive
+21:40 - Mr.Grumpy: so i turned off all distractions and focused only on code and overwatch
+21:40 - rorrExatnyS: lol
+21:40 - Mr.Grumpy: speaking of which
+21:40 - Mr.Grumpy: http://site808.webelevate.net/#
+21:40 - Mr.Grumpy: check it
+21:40 - Mr.Grumpy: the super convoluted uml diagrams and shit
+21:41 - rorrExatnyS: i can see that you wrote the text for this website
+21:42 - rorrExatnyS: "Corri" ill also benefit people ho ant to improve their public speaking skills.
+21:41 - Mr.Grumpy: and the meme story at the end which i put most of my time and effort into
+21:42 - Mr.Grumpy: ffffffffffffffffuck
+21:42 - rorrExatnyS: also "public speach or a presentation" its speech
+21:43 - rorrExatnyS: The app is designed for mobile device and focuse
+21:43 - rorrExatnyS: devices and focus
+21:43 - rorrExatnyS: should i tell you the issues or not?
+21:43 - Mr.Grumpy: yeah go for it
+21:43 - rorrExatnyS: two-way communication ith the user.
+21:44 - rorrExatnyS: "analyze and correct the user's grammar and pronounciation" users no apostrophe
+21:44 - rorrExatnyS: Navigate easily ith voice commands
+21:44 - rorrExatnyS: "such as online dictionary, voice recording or synonym suggestions" replace or with and
+
+21:45 - rorrExatnyS: who will use it part theres a "frequent user" text over the image dunno if it should be there
+
+21:46 - rorrExatnyS: "part time course and gain qualifications" gained
+
+21:47 - rorrExatnyS: Jonathan uses laptop but he spends more time using his mobile devices Tablet and Phone.
+a laptop
+no need to capitalise tablet and phone
+
+21:47 - rorrExatnyS: Part time sales assistant in Computer store / part time English student
+no spaces before and after /
+21:48 - rorrExatnyS: Nationality: Argentina
+argentinian
+21:48 - rorrExatnyS: i think its what that nationality is called
+21:48 - rorrExatnyS: in a 2 bed apartment in Dublin city, Ireland with his girlfriend, sharing with another couple
+capitalise 1st letter in a sentence
+
+21:49 - rorrExatnyS: playing online games, watching movies and also really interested in foreign cultures and food
+video games, i dont think you need to specify those are online
+"movies, also is really..."
+also capitalise 1st letter
+21:50 - rorrExatnyS: Goals:
+
+Interested in finding new mobile apps that will help him improve his verbal skills
+21:50 - rorrExatnyS: i can just imagine this dude in a bus for an hour talking to his phone in french/german
+21:50 - Mr.Grumpy: whats your resolution btw ?
+21:51 - rorrExatnyS: "custom"
+21:51 - rorrExatnyS: i dont fullscreen my browser
+21:52 - rorrExatnyS: https://www.dropbox.com/s/ktr4el5d68wzukh/asd.png?dl=0
+21:52 - Mr.Grumpy: thats fine, its about the tablet size
+21:53 - rorrExatnyS: Find a well paid job so that he can buy a house(apply for a mortgage)Ireland 
+space before ( and after )
+
+21:54 - rorrExatnyS: in goals you did no use a single "." but in attitude you do imo pick a style and stick to it
+21:55 - rorrExatnyS: "pronounce all the new words correctly he learned."
+imo "correctly pronounce the newly learned words."
+21:56 - rorrExatnyS: "your personal teacher in your pocket" dunno if your is needed twice here
+21:57 - rorrExatnyS: "Despite the fact that she have is not speaking English,"
+21:57 - rorrExatnyS: "Have two grown up kids that lives separately in Ireland as well. "
+"she has", "live"
+21:58 - rorrExatnyS: Gardening, cooking, Handmade crafts, swimming
+random capital in middle of sentence
+22:02 - Mr.Grumpy: end of mats_error_dump.exe?
+22:02 - rorrExatnyS: check molests me atm
+22:02 - Mr.Grumpy: haha
+22:03 - rorrExatnyS: as she is to shy to communicate 
+to vs too vs two
+22:03 - rorrExatnyS: Because of that she is avoiding all all occasional job meetings
+all all?
+22:04 - rorrExatnyS: only with small numbers of people who speaks Russian or Lithuanian.
+who speak
+22:04 - rorrExatnyS: Irina work for a current company for 4 years , she had already 
+works and no space before a comma
+22:04 - rorrExatnyS: This time she want to ask for a rise in person. 
+wants
+22:05 - rorrExatnyS: Irina is a shy person and do not like to ask for a help
+doesnt or does not, also more a before help
+22:05 - rorrExatnyS: remove not more
+22:08 - rorrExatnyS: Irina likes her job but feels discomfort on a daily basis.
+again remove a before daily
+22:09 - rorrExatnyS: jesus im not even 1/2 way through
+22:09 - Mr.Grumpy: thank fuck i asked you to look at it i wouldve never found any of the mistakes
+22:10 - Mr.Grumpy: its ok at some point theres omly diagrams
+22:11 - rorrExatnyS: in Practice A Language
+22:11 - rorrExatnyS: you need to add a horizontal space after the text in description and preconditions
+22:11 - rorrExatnyS: The System asks for a topic of conversation .
+space before a comma
+22:11 - rorrExatnyS: fullstop*
+22:12 - rorrExatnyS: The user input / system reply loop continues forming a conversation
+no spaces before and after /
+missing fullsltop
+22:12 - rorrExatnyS: The exchange of banter and linguistic smarts continues until the user ends the conversation by saying “I don’t want to talk about it.
+never closed the "
+22:13 - rorrExatnyS: 1. The system asks the user if he needs help.
+replace he with "they need help"
+22:13 - rorrExatnyS: 2A1.The user says “no” and the system waits for further input
+missing fullstop
+22:14 - rorrExatnyS: He does so by speaking into the phone and the phone speaks back
+"they do so"
+phone talks back
+22:15 - rorrExatnyS: the transition between the images in wireframes showcase is not smooth
+22:15 - Mr.Grumpy: nothing i can do about that
+22:15 - Mr.Grumpy: its jquery animate
+22:16 - rorrExatnyS: oh, ok
+22:15 - Mr.Grumpy: does whatever it wants
+22:16 - rorrExatnyS: the image just snaps into the phone after smooth translation
+22:16 - rorrExatnyS: at least for me
+22:17 - rorrExatnyS: actually it works fine when i click on the arrows
+22:16 - Mr.Grumpy: isee
+22:17 - rorrExatnyS: it does that thing when i click on images
+22:16 - Mr.Grumpy: must be the on hover
+22:17 - rorrExatnyS: oh yeah
+22:17 - rorrExatnyS: seems to be
+22:17 - Mr.Grumpy: maciej complained about it too
+22:17 - Mr.Grumpy: i think ill need to remove it
+22:18 - rorrExatnyS: you could disable it once the image has beed clicked
+22:17 - Mr.Grumpy: or remove the class when clicked
+22:17 - Mr.Grumpy: yeah ill do just that
+22:18 - rorrExatnyS: jaysus, using maymays?
+22:18 - Mr.Grumpy: getting the wireframes to work though took some serious brain power
+22:18 - Mr.Grumpy: yes
+22:19 - rorrExatnyS: i like it
+22:19 - Mr.Grumpy: the maymayes
+22:19 - rorrExatnyS: looks pretty nice
+22:19 - Mr.Grumpy: im so proud of my maymays
+22:19 - rorrExatnyS: lol
+22:20 - rorrExatnyS: i like that magnification on state transition diagrams
+22:19 - Mr.Grumpy: too bad it doesnt zoom in enough
+22:20 - rorrExatnyS: yeah i was about to complain about that
+22:20 - Mr.Grumpy: i could zoom in more but then you wont get the bigger pictur
+22:20 - rorrExatnyS: id need binoculars
+22:20 - Mr.Grumpy: i need to make the image are itself bigger without losing aspect ratio
+22:21 - rorrExatnyS: looks better in fullscreen
+22:21 - Mr.Grumpy: getting that to work was also a feet of javascript gymnastics
+22:21 - rorrExatnyS: Join our news letter and be the first to know about updates, discounts and tips.
+newsletter is spelled together
+22:21 - Mr.Grumpy: is it ?
+22:22 - rorrExatnyS: yeah
+22:21 - Mr.Grumpy: how times have changed
+22:22 - Mr.Grumpy: jesus the fucking foreigners and their lack of spelling doubled my workload
+22:23 - rorrExatnyS: the text did seem to be written by a foreigner
+22:23 - rorrExatnyS: one last thing
+22:23 - Mr.Grumpy: it was because the team only consist of foreigners
+22:23 - rorrExatnyS: "Just provide your email below"
+replace just with simply, will seem to be a follow up with previous sentence
+22:24 - Mr.Grumpy: all the spelling aside
+22:24 - Mr.Grumpy: what u thinks
+22:24 - rorrExatnyS: pwetty good
+22:25 - rorrExatnyS: add me does not work
+22:24 - Mr.Grumpy: yes it does nothing
+22:25 - rorrExatnyS: also too much pink not whough magenta
+22:25 - rorrExatnyS: enough*
+22:25 - Mr.Grumpy: not manly enough
+22:25 - rorrExatnyS: yeah
