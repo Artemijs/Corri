@@ -225,6 +225,22 @@ body{
   padding-top: 5%;
   padding-bottom: 15%;
 }
+#persona_scenario:hover{ cursor: pointer; }
+#pscenarios{
+    opacity: 0;
+    height: 0;
+}
+#persona_scenario_txt{
+ 
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align:center;
+  color: white;
+  font-size: 125%;
+  background-color: #800080;
+}
 #pbg_back{
   width: 100%;
 }
