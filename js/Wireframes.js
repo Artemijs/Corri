@@ -60,11 +60,11 @@ function createFrames(){
 		var y ;
 		var height = 0;
 		if(i <= left_max){
-			y = ($("#empty_phone").height()*0.1)+ (left_max-i)*($("#empty_phone").height()*scale_factor);
+			y = ($("#empty_phone").height()*0.05)+ (left_max-i)*($("#empty_phone").height()*scale_factor);
 			height = $("#empty_phone").height()*0.8 - (left_max-i)*($("#empty_phone").height()*scale_factor*2);
 		}
 		else{
-			y = ($("#empty_phone").height()*0.1) - (left_max-i)*($("#empty_phone").height()*scale_factor);
+			y = ($("#empty_phone").height()*0.05) - (left_max-i)*($("#empty_phone").height()*scale_factor);
 			height = $("#empty_phone").height()*0.8 + (left_max-i)*($("#empty_phone").height()*scale_factor*2);
 		}
 

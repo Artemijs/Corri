@@ -54,6 +54,17 @@ function createUseCases(){
 		loadUseCase(current_case);
 
 	});
+
+	$("#use_case_nav_left").css({
+		"position":"absolute",
+		"left": $("#use_case_text").offset().left - $("#use_case_nav_left").width()*2,
+		"top": $("#use_cases").height()/2 
+	});
+	$("#use_case_nav_right").css({
+		"position":"absolute",
+		"left":$("#use_cases").width() + $("#use_case_nav_right").width() + $("#use_case_text").offset().left,
+		"top": $("#use_cases").height()/2 
+	});
 }
 function loadUseCase(index){
 	$("#usc_title").text(all_usecases[index]["usc_title"]);

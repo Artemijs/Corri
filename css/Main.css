@@ -2,7 +2,14 @@ body,html {
   height: 100%;
  
 }
-
+.row{
+  padding: 0;
+  margin: 0;
+}
+.container{
+  padding: 0;
+  margin: 0;
+}
 body {
   padding-top: 50px;
 }
@@ -232,6 +239,7 @@ body{
 
 }
 #use_case_diagrams{
+  position: relative;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 10%;
@@ -242,6 +250,7 @@ body{
   position: relative;
 }
 #use_cases{
+  position: relative;
   padding-top: 5%;
   padding-left: 15%;
   padding-right: 15%;
@@ -286,8 +295,9 @@ body{
 }
 #wire_frames{
   position: relative;
-  height: 800px;
+  height: 1000px;
   display: inline-block;
+  width: 100%;
 }
 #wf_header_text{
   float: left;
@@ -310,6 +320,7 @@ body{
 }
 #wf_bg{
   width : 100%;
+  height: 60%;
 }
 #wf_header_text{
   padding-top: 5%;
