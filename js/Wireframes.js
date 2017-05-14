@@ -28,7 +28,8 @@ function createFrames(){
 		rotateByFrame(-1);
 	});
 
-	var srcs = ["img/wireframe1.gif", "img/splash.png", "img/wireframe1.gif", "img/splash.png", "img/wireframe1.gif", "img/splash.png" , "img/splash.png" ];
+	var srcs = ["img/wireframe1.gif", "img/wireframes/wireframe2.png", "img/wireframes/wireframe4.png", "img/wireframes/wireframe5.png", "img/wireframes/wireframe6.png", "img/wireframes/wireframe3.png", "img/wireframes/wireframe7.png" ];
+	total_frames = srcs.length;
 	var frame_width = using_width/total_frames ;
 	$("#slide").css({
 		"position":"absolute",
@@ -90,7 +91,7 @@ function createFrames(){
 			handleClick(id);
 		});
 	}
-	rotateByFrame(0);
+	rotateByFrame(-4);
 }
 function handleClick(id){
 	for(var i = 0; i < all_frames.length; i++){

@@ -37,7 +37,7 @@
 	  <ul class="nav navbar-nav">
 		<li class="active"><a class = "page-scroll" href="#about">About</a></li>
 		<li><a class = "page-scroll" href="#persona">Personas</a></li>
-		<li><a class = "page-scroll" href="#uc_diagrams">Use Case Diagram</a></li>
+		<li><a class = "page-scroll" href="#use_case_diagrams">Use Case Diagram</a></li>
 		<li><a class = "page-scroll" href="#use_cases">Use Cases</a></li>
 		<li><a class = "page-scroll" href="#structure_map">Structure Maps</a></li>
 		<li><a class = "page-scroll" href="#wire_frames">Wire Frames</a></li>
@@ -176,23 +176,24 @@
 	<div id = "use_cases" class = "row">
 		<img id="use_case_nav_left" src="./img/black_arrow_left.png">
 		<img id = "use_case_nav_right" src="./img/black_arrow_right.png">
+		<div id = "use_case_text">
+			<p id = "usc_title" class = "purple"></p>
 
-		<p id = "usc_title" class = "purple"></p>
+			<p class="usc_bold">Actors</p>
+			<ul id = "usc_actors" class = "dots"></ul>
 
-		<p class="usc_bold">Actors</p>
-		<ul id = "usc_actors" class = "dots"></ul>
+			<p class="usc_bold">Description</p>
+			<div id = "usc_description" class = "tabbed"></div>
+			<br>
+			<p class="usc_bold">Preconditions</p>
+			<div id = "usc_preconditions" class = "tabbed"></div>
+			<br>
+			<p class="usc_bold">Basic Flow</p>
+			<ol id = "usc_basic_flow"></ol>
 
-		<p class="usc_bold">Description</p>
-		<div id = "usc_description" class = "tabbed"></div>
-		<br>
-		<p class="usc_bold">Preconditions</p>
-		<div id = "usc_preconditions" class = "tabbed"></div>
-		<br>
-		<p class="usc_bold">Basic Flow</p>
-		<ol id = "usc_basic_flow"></ol>
-
-		<p class="usc_bold">Alternate Flow</p>
-		<div id = "usc_alt_flow"></div>
+			<p class="usc_bold">Alternate Flow</p>
+			<div id = "usc_alt_flow"></div>
+		</div>
 	</div>
 	<div id="structure_map" class = "row">
 		<div  class="heading">
