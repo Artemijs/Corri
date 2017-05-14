@@ -1,7 +1,7 @@
 var screen_width = $(window).width();
 var center_pos;
 var total_frames = 7;
-var using_width = screen_width*1.3;
+var using_width = screen_width*1.15;
 var current_frame =0;
 var all_frames=[];
 var cells= [];

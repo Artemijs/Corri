@@ -1,6 +1,6 @@
 var screen_height = $(window).height();
 console.log(screen_height);
-
+var ream_more = false;
 function init(){
 	createPersonas();
 	loadPersona(0);
@@ -60,6 +60,17 @@ function init(){
 		"height":$("#std_img").height()
 	});
 	createZoom();
+	$("#about_read_more").click(function(){
+		ps_hidden = !ps_hidden;
+		if(ps_hidden){
+			$("#about_read_more").text("read more");
+			$("#arm_txt").animate({"height":"0", "opacity":0});
+		}
+		else{
+			$("#about_read_more").text("read less");
+			autoHeightAnimate($("#arm_txt"));
+		}
+	});
 }
 function scroll(e){
 	var btn = $("#persona_nav_left");

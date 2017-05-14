@@ -110,9 +110,13 @@ li{
 
 }
 #about{
-  padding: 5%;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding: 10% 5% 10% 15%;
+}
+#about p{
+  font-size: 125%;
+}
+#about_2 p{
+  font-size: 125%;
 }
 #about_2{
   padding: 5%;
@@ -455,4 +459,16 @@ body{
 }
 .shado{
    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.8);
+}
+#arm_txt{
+  height: 0;
+  opacity: 0;
+}
+#about_read_more:hover{
+  cursor: pointer;
+}
+#about_read_more{
+  font-size: 100% !important;
+  color: #727272;
+  float: right;
 }
