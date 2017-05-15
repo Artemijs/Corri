@@ -24,15 +24,24 @@ function createUCD(){
 	});
 	var h = $("#use_case_diagrams").height()*0.7;
 	loadUCD(0);
+	var y = $("#uc_diagrams").height()/2 + h/2;
+	var mul = 1;
+	if($(window).width() > 480){
+
+	}
+	else{
+		y = $("#uc_diagrams").height()*0.35;
+		mul = 0;
+	}
 	$("#uc_diagram_nav_left").css({
 		"position":"absolute",
 		"left":$("#uc_diagrams").offset().left,
-		"top": $("#use_case_diagrams").height()/2 + h
+		"top": y
 	});
 	$("#uc_diagram_nav_right").css({
 		"position":"absolute",
-		"left":$("#use_case_diagrams").width() + $("#uc_diagram_nav_right").width(),
-		"top": $("#use_case_diagrams").height()/2 + h
+		"left":$("#use_case_diagrams").width() + $("#uc_diagram_nav_right").width()*mul,
+		"top": y
 	});
 }
 function loadUCD(index){

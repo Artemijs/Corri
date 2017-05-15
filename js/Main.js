@@ -1,7 +1,30 @@
 var screen_height = $(window).height();
+var s_width = $(window).width();
 console.log(screen_height);
 var ream_more = false;
 function init(){
+	if(s_width > 480){
+		$("#my_nav").append('<li class="active"><a class = "page-scroll" href="#about">About</a></li>'+
+		'<li><a data-toggle="collapse" data-target=".navbar-collapse" class = "page-scroll" href="#persona">Personas</a></li>'+
+		'<li><a data-toggle="collapse" data-target=".navbar-collapse" class = "page-scroll" href="#use_case_diagrams">Use Case Diagram</a></li>'+
+		'<li><a data-toggle="collapse" data-target=".navbar-collapse" class = "page-scroll" href="#use_cases">Use Cases</a></li>'+
+		'<li><a data-toggle="collapse" data-target=".navbar-collapse" class = "page-scroll" href="#structure_map">Structure Maps</a></li>'+
+		'<li><a data-toggle="collapse" data-target=".navbar-collapse" class = "page-scroll" href="#wire_frames">Wire Frames</a></li>'+
+		'<li><a data-toggle="collapse" data-target=".navbar-collapse" class = "page-scroll" href="#task_diagram">Task Diagram</a></li>'+
+		'<li><a data-toggle="collapse" data-target=".navbar-collapse" class = "page-scroll" href="#story_board">Stroy Board</a></li>'+
+		'<li><a data-toggle="collapse" data-target=".navbar-collapse" class = "page-scroll" href="#std">State Diagrams</a></li>');
+	}
+	else{
+		$("#my_nav").append('<li class="active"><a class = "page-scroll" href="#about">About</a></li>'+
+		'<li><a class = "page-scroll" href="#persona">Personas</a></li>'+
+		'<li><a class = "page-scroll" href="#use_case_diagrams">Use Case Diagram</a></li>'+
+		'<li><a class = "page-scroll" href="#use_cases">Use Cases</a></li>'+
+		'<li><a class = "page-scroll" href="#structure_map">Structure Maps</a></li>'+
+		'<li><a class = "page-scroll" href="#wire_frames">Wire Frames</a></li>'+
+		'<li><a class = "page-scroll" href="#task_diagram">Task Diagram</a></li>'+
+		'<li><a class = "page-scroll" href="#story_board">Stroy Board</a></li>'+
+		'<li><a class = "page-scroll" href="#std">State Diagrams</a></li>');
+	}
 	createPersonas();
 	loadPersona(0);
 	createUseCases();
@@ -18,22 +41,29 @@ function init(){
 	//position persona ui elements ith dynamic positioning
 	//arro corlor E7E7E7 
 	var img = $("#persona_img");
-	$("#persona_name_p").css({
-		"left" : -$("#persona_name_p").width(), 
-		"top" : -$("#persona_name_p").height()*0.9
-	});
-	$("#frequent_usr_txt").css({
-		"left" : $("#persona_name_p").width(), 
-		"top" : -$("#persona_name_p").height()*1.4
-	});
+	var mul = 2;
+	if (s_width > 480) {
+		$("#persona_name_p").css({
+			"left" : -$("#persona_name_p").width(), 
+			"top" : -$("#persona_name_p").height()*0.9
+		});
+		img.css({"padding-bottom":"5%"});
+	}else{
+		mul = 1;
+		$("#persona_name_p").css({
+			"left" : 0, 
+			"top" : -$("#persona_name_p").height()*0.9
+		});
+	}
+	
 	$("#persona_nav_left").css({
 		"position":"absolute",
-		"left":$("#persona_bio").offset().left - $("#persona_nav_left").width()*2,
+		"left":$("#persona_bio").offset().left - $("#persona_nav_left").width()*mul,
 		"top": $("#persona").offset().top+ $("#persona").height()/2
 	});
 	$("#persona_nav_right").css({
 		"position":"absolute",
-		"left":$("#persona_bio").offset().left+ $("#persona_bio").width() + $("#persona_nav_left").width(),
+		"left":$("#persona_bio").offset().left+ $("#persona_bio").width() + ($("#persona_nav_left").width()*(mul-1)),
 		"top": $("#persona").offset().top+ $("#persona").height()/2
 	});	
 	var t = ($("#pbg_logo").width()+$("#pbg_text").width());
@@ -51,10 +81,20 @@ function init(){
 	$("#diagrams").css({
 		"position":"relative"
 	});
-	$("#footer_text").css({
-		"top": $("#footer_img").height()*0.25,
-		"left": $("#footer_img").width()*0.5,
-	});
+	if (s_width > 480) {
+		$("#footer_text").css({
+			"top": $("#footer_img").height()*0.25,
+			"left": $("#footer_img").width()*0.5,
+		});
+	}
+	else{
+		$("#footer_text").css({
+			"width":"100%",
+			"padding":"10%",
+			"top": 0,
+			"left": 0,
+		});
+	}
 	//
 	$("#std_zoom_div").css({
 		"height":$("#std_img").height()
@@ -65,10 +105,26 @@ function init(){
 		if(ps_hidden){
 			$("#about_read_more").text("read more");
 			$("#arm_txt").animate({"height":"0", "opacity":0});
+			var autoHeight = $("#arm_txt").css('height', 'auto').height();
+			$("#persona_nav_left").css({
+				"top": $("#persona_nav_left").offset().top- autoHeight
+			});
+			$("#persona_nav_right").css({
+				"top": $("#persona_nav_right").offset().top- autoHeight
+			});
+
 		}
 		else{
 			$("#about_read_more").text("read less");
 			autoHeightAnimate($("#arm_txt"));
+			var autoHeight = $("#arm_txt").css('height', 'auto').height();
+			$("#persona_nav_left").css({
+				"top": $("#persona_nav_left").offset().top+ autoHeight
+			});
+			$("#persona_nav_right").css({
+				"top": $("#persona_nav_right").offset().top+ autoHeight
+			});
+
 		}
 	});
 }

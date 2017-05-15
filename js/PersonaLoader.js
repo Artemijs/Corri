@@ -44,7 +44,7 @@ function createPersonas(){
 	all_personas[1] = {
 		"persona_name_p":"Irina Alekseevna",
 		"persona_bio":"<p  class = 'jumbotron col-sm-9 persona_bio'> Irina was born in USSR and studied german at school. She moved to Ireland where her kids lived. Despite the fact that she does not speak English, soon she got a job offer. Irina has more than 20 years experience in sewing industry and is a valuable employee with great experience.  </p>",
-		"persona_img":"https://lh4.googleusercontent.com/L795Ej4dwjxmIlw1Fqww6sFIvZ7mv_cRHtjssqyqbO-Mg568-E6M2wD0gRjFemEmPNQVu0kdbdV-Y2VoQc7Hne-dNjxn0VmmmZXB22P94CGneF7cS8EwlTSZFkOQRVMzNfCBpIsg",
+		"persona_img":"img/persona_1.png",
 		"frequent_usr_txt":"Frequent user",
 		"visited_list":'<a href = "https://Ok.ru" >Ok.ru</a><br>'+
 						'<a href = "https:Pinterest.com" >Pinterest.com</a><br>'+
@@ -66,7 +66,6 @@ function createPersonas(){
 					"<li class = 'dots' >After that her daughter tried to look for some learning apps for her mother. She found Corri application that said it communicates and teaches the right pronunciation. </li>"+
 					"<li class = 'dots' >They decided to download and try this new application.</li>"
 	};
-
 	$("#persona_nav_left").click(function(){
 		clearPersona();
 		current_persona--;
@@ -88,6 +87,7 @@ function createPersonas(){
 	});
 	height = $("#persona_scenario").height();
 	$("#persona_scenario").click(function(){hideScenario();});
+
 }
 function hideScenario(){
 	ps_hidden = !ps_hidden;

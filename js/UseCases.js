@@ -54,15 +54,22 @@ function createUseCases(){
 		loadUseCase(current_case);
 
 	});
+	var mul = 2;
+	if($(window).width() > 480){
 
+	}
+	else{
+		y = $("#uc_diagrams").height()*0.35;
+		mul = 1;
+	}
 	$("#use_case_nav_left").css({
 		"position":"absolute",
-		"left": $("#use_case_text").offset().left - $("#use_case_nav_left").width()*2,
+		"left": $("#use_case_text").offset().left - $("#use_case_nav_left").width()*mul,
 		"top": $("#use_cases").height()/2 
 	});
 	$("#use_case_nav_right").css({
 		"position":"absolute",
-		"left":$("#use_cases").width() + $("#use_case_nav_right").width() + $("#use_case_text").offset().left,
+		"left":$("#use_cases").width() + $("#use_case_nav_right").width() + $("#use_case_text").offset().left * (mul-1),
 		"top": $("#use_cases").height()/2 
 	});
 }
