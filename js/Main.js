@@ -166,6 +166,10 @@ function verify(){
 	}
 }
 function closeLogIn(){
+	$("#iframe").css({
+		"width":s_width,
+		"height":screen_height
+	});
 	$("#log_in").css({
 		"display":"none"
 	});
