@@ -789,7 +789,9 @@ div#pconerns {
     height: auto;
             max-width: 250px;
 }
-
+#frame_nav_right, #frame_nav_left, img#persona_nav_right, img#persona_nav_left, #use_case_nav_right, #use_case_nav_left, #uc_diagram_nav_right, #uc_diagram_nav_left {
+  z-index: 1;
+}
 .scalable, #frame_nav_right, #frame_nav_left, img#persona_nav_right, img#persona_nav_left, #use_case_nav_right, #use_case_nav_left, #uc_diagram_nav_right, #uc_diagram_nav_left {
 cursor: pointer;
 }
