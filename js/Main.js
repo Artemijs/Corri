@@ -3,6 +3,7 @@ var s_width = $(window).width();
 console.log(screen_height);
 var ream_more = false;
 function init(){
+
 	if(s_width > 480){
 		$("#my_nav").append('<li class="active"><a class = "page-scroll" href="#about">About</a></li>'+
 		'<li><a data-toggle="collapse" data-target=".navbar-collapse" class = "page-scroll" href="#persona">Personas</a></li>'+
@@ -25,6 +26,7 @@ function init(){
 		'<li><a class = "page-scroll" href="#story_board">Stroy Board</a></li>'+
 		'<li><a class = "page-scroll" href="#std">State Diagrams</a></li>');
 	}
+	showLogInDiv();
 	createPersonas();
 	loadPersona(0);
 	createUseCases();
@@ -140,4 +142,35 @@ function scroll(e){
 		});
 
 	}
+}
+var details = {
+	"Username": "Ace24",
+	"Password": "Team#24"
+};
+function showLogInDiv(){
+	$("#content").css({
+		"display":"none"
+	});
+	$("log_in").css({
+		"display":"block"
+	});
+	$("#log_in_submit").click(function(){verify();});
+}
+
+function verify(){
+	if($("#login").val() == details.Username && $("#password").val() == details.Password){
+		closeLogIn();
+	}
+	else{
+		$("#log_in").append("<p>User name or password incorrect</p>");
+	}
+}
+function closeLogIn(){
+	$("#log_in").css({
+		"display":"none"
+	});
+	$("#content").css({
+		"display":"block"
+	});
+
 }

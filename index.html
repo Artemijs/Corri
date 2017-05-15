@@ -19,10 +19,21 @@
 	<script src="js/UseCaseDiagrams.js"></script>
 	<script src="js/Wireframes.js"></script>
 	<script src="js/std.js"></script>
+	
 	<script src="js/Main.js"></script> 
 	<link rel="stylesheet" href="css/Main.css">
 </head>
 <body onload = "init();" data-spy="scroll" data-target=".navbar">
+<div id = "log_in">
+	<p>Log in :</p>
+	<input id="login" type="text">
+	<br>
+	<p >Password</p>
+	<input id="password" type="text">
+	<br>
+	<input id="log_in_submit" type="button" value="Submit">
+</div>
+<div id= "content" style = "display:none">
 <div class="navbar navbar-inverse navbar-fixed-top" role = "navigation">
   <div class="container">
 	<div class="navbar-header">
@@ -45,7 +56,6 @@
 	 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/QMfG_A06FSE">
 	</iframe> 
 </div>
-
 <div class="container">
 	<div class ="row">
 		<div id = "about" class = "jumbotron col-sm-9 transparent">
@@ -251,6 +261,7 @@
 		</div>
 	</div>
 	
+</div>
 </div>
 </body>
 </html>
